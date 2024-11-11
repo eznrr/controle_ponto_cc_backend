@@ -18,7 +18,6 @@ app.post('/user/:id1-:id2', (req, res) => {
     res.send(req.params);
 });
 
-
 const PORT = 3000;
 
 app.listen(PORT, () => {
